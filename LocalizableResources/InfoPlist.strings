@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  EmptyProject
+
+  Created by Administrator on 2016/10/27.
+
+*/
+
+"CFBundleDisplayName" = "螢幕錄製X";
+"NSPhotoLibraryUsageDescription" = "使用權限：存入使用您的照片圖庫";

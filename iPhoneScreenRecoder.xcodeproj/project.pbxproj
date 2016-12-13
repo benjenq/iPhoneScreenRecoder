@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iPhoneScreenRecoderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iPhoneScreenRecoderAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		C39F29501E009366002262C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C39F294E1E009366002262C3 /* InfoPlist.strings */; };
+		C39F29511E009366002262C3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C39F294F1E009366002262C3 /* Localizable.strings */; };
+		C39F296B1E0093A9002262C3 /* libairplaysdk-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C39F29671E0093A9002262C3 /* libairplaysdk-1.a */; };
+		C39F296C1E0093A9002262C3 /* libairplaysdk-2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C39F29681E0093A9002262C3 /* libairplaysdk-2.a */; };
+		C39F296D1E0093A9002262C3 /* libintl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C39F29691E0093A9002262C3 /* libintl.a */; };
+		C39F296E1E0093A9002262C3 /* libmp4v2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C39F296A1E0093A9002262C3 /* libmp4v2.a */; };
+		C39F297A1E0093F8002262C3 /* CSScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F29751E0093F8002262C3 /* CSScreenRecorder.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C39F297C1E0093F8002262C3 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F29791E0093F8002262C3 /* Utilities.m */; };
+		C39F29841E009428002262C3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F297F1E009428002262C3 /* MainViewController.m */; };
+		C39F29851E009428002262C3 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39F29801E009428002262C3 /* MainViewController.xib */; };
+		C39F298C1E00948F002262C3 /* btn_record.png in Resources */ = {isa = PBXBuildFile; fileRef = C39F298A1E00948F002262C3 /* btn_record.png */; };
+		C39F298D1E00948F002262C3 /* btn_recording.png in Resources */ = {isa = PBXBuildFile; fileRef = C39F298B1E00948F002262C3 /* btn_recording.png */; };
+		C39F298F1E00952D002262C3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39F298E1E00952D002262C3 /* AVFoundation.framework */; };
+		C39F29921E00953F002262C3 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C39F29901E00953F002262C3 /* libstdc++.6.tbd */; };
+		C39F29931E00953F002262C3 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C39F29911E00953F002262C3 /* libstdc++.tbd */; };
+		C39F29991E0095DE002262C3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39F29981E0095DE002262C3 /* CFNetwork.framework */; };
+		C39F299B1E0095F5002262C3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39F299A1E0095F5002262C3 /* Security.framework */; };
+		C39F299C1E00961D002262C3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39F29961E0095D0002262C3 /* CoreMedia.framework */; };
+		C39F29A11E00967A002262C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39F29A01E00967A002262C3 /* Default-568h@2x.png */; };
+		C39F29A31E00970D002262C3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39F29A21E00970D002262C3 /* MediaPlayer.framework */; };
+		C39F29A71E0099A4002262C3 /* UIKitExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F29A61E0099A4002262C3 /* UIKitExtensions.m */; };
+		C39F29AA1E009A07002262C3 /* appHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F29A91E009A07002262C3 /* appHelper.m */; };
+		C39F29AE1E00A1D1002262C3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C39F29AD1E00A1D1002262C3 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iPhoneScreenRecoderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneScreenRecoderAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iPhoneScreenRecoderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneScreenRecoderAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iPhoneScreenRecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneScreenRecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* iPhoneScreenRecoder_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneScreenRecoder_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iPhoneScreenRecoder-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhoneScreenRecoder-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C39F294E1E009366002262C3 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		C39F294F1E009366002262C3 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		C39F29671E0093A9002262C3 /* libairplaysdk-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libairplaysdk-1.a"; sourceTree = "<group>"; };
+		C39F29681E0093A9002262C3 /* libairplaysdk-2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libairplaysdk-2.a"; sourceTree = "<group>"; };
+		C39F29691E0093A9002262C3 /* libintl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libintl.a; sourceTree = "<group>"; };
+		C39F296A1E0093A9002262C3 /* libmp4v2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp4v2.a; sourceTree = "<group>"; };
+		C39F29741E0093F8002262C3 /* CSScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSScreenRecorder.h; sourceTree = "<group>"; };
+		C39F29751E0093F8002262C3 /* CSScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSScreenRecorder.m; sourceTree = "<group>"; };
+		C39F29781E0093F8002262C3 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		C39F29791E0093F8002262C3 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		C39F297E1E009428002262C3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C39F297F1E009428002262C3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C39F29801E009428002262C3 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		C39F298A1E00948F002262C3 /* btn_record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_record.png; sourceTree = "<group>"; };
+		C39F298B1E00948F002262C3 /* btn_recording.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_recording.png; sourceTree = "<group>"; };
+		C39F298E1E00952D002262C3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C39F29901E00953F002262C3 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		C39F29911E00953F002262C3 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		C39F29941E009565002262C3 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C39F29961E0095D0002262C3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C39F29981E0095DE002262C3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C39F299A1E0095F5002262C3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C39F29A01E00967A002262C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C39F29A21E00970D002262C3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C39F29A51E0099A4002262C3 /* UIKitExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitExtensions.h; sourceTree = "<group>"; };
+		C39F29A61E0099A4002262C3 /* UIKitExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitExtensions.m; sourceTree = "<group>"; };
+		C39F29A81E009A07002262C3 /* appHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appHelper.h; sourceTree = "<group>"; };
+		C39F29A91E009A07002262C3 /* appHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = appHelper.m; sourceTree = "<group>"; };
+		C39F29AD1E00A1D1002262C3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39F29A31E00970D002262C3 /* MediaPlayer.framework in Frameworks */,
+				C39F299C1E00961D002262C3 /* CoreMedia.framework in Frameworks */,
+				C39F299B1E0095F5002262C3 /* Security.framework in Frameworks */,
+				C39F29991E0095DE002262C3 /* CFNetwork.framework in Frameworks */,
+				C39F298F1E00952D002262C3 /* AVFoundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				C39F29921E00953F002262C3 /* libstdc++.6.tbd in Frameworks */,
+				C39F29931E00953F002262C3 /* libstdc++.tbd in Frameworks */,
+				C39F296C1E0093A9002262C3 /* libairplaysdk-2.a in Frameworks */,
+				C39F296D1E0093A9002262C3 /* libintl.a in Frameworks */,
+				C39F296B1E0093A9002262C3 /* libairplaysdk-1.a in Frameworks */,
+				C39F296E1E0093A9002262C3 /* libmp4v2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* iPhoneScreenRecoderAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iPhoneScreenRecoderAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iPhoneScreenRecoder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C39F29881E009454002262C3 /* Images */,
+				C39F29711E0093F8002262C3 /* Code */,
+				C39F29541E0093A9002262C3 /* fat */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* iPhoneScreenRecoder_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C39F29AD1E00A1D1002262C3 /* README.md */,
+				C39F294D1E009366002262C3 /* LocalizableResources */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* iPhoneScreenRecoder-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C39F29A21E00970D002262C3 /* MediaPlayer.framework */,
+				C39F299A1E0095F5002262C3 /* Security.framework */,
+				C39F29981E0095DE002262C3 /* CFNetwork.framework */,
+				C39F29961E0095D0002262C3 /* CoreMedia.framework */,
+				C39F29941E009565002262C3 /* CoreVideo.framework */,
+				C39F29901E00953F002262C3 /* libstdc++.6.tbd */,
+				C39F29911E00953F002262C3 /* libstdc++.tbd */,
+				C39F298E1E00952D002262C3 /* AVFoundation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C39F294D1E009366002262C3 /* LocalizableResources */ = {
+			isa = PBXGroup;
+			children = (
+				C39F294E1E009366002262C3 /* InfoPlist.strings */,
+				C39F294F1E009366002262C3 /* Localizable.strings */,
+			);
+			path = LocalizableResources;
+			sourceTree = "<group>";
+		};
+		C39F29541E0093A9002262C3 /* fat */ = {
+			isa = PBXGroup;
+			children = (
+				C39F29661E0093A9002262C3 /* lib */,
+			);
+			path = fat;
+			sourceTree = "<group>";
+		};
+		C39F29661E0093A9002262C3 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C39F29671E0093A9002262C3 /* libairplaysdk-1.a */,
+				C39F29681E0093A9002262C3 /* libairplaysdk-2.a */,
+				C39F29691E0093A9002262C3 /* libintl.a */,
+				C39F296A1E0093A9002262C3 /* libmp4v2.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		C39F29711E0093F8002262C3 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				C39F29A41E009983002262C3 /* Helper */,
+				C39F297D1E009428002262C3 /* ViewController */,
+				C39F29721E0093F8002262C3 /* 3rdParty */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		C39F29721E0093F8002262C3 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				C39F29731E0093F8002262C3 /* AirPlay */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		C39F29731E0093F8002262C3 /* AirPlay */ = {
+			isa = PBXGroup;
+			children = (
+				C39F29741E0093F8002262C3 /* CSScreenRecorder.h */,
+				C39F29751E0093F8002262C3 /* CSScreenRecorder.m */,
+				C39F29781E0093F8002262C3 /* Utilities.h */,
+				C39F29791E0093F8002262C3 /* Utilities.m */,
+			);
+			path = AirPlay;
+			sourceTree = "<group>";
+		};
+		C39F297D1E009428002262C3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C39F297E1E009428002262C3 /* MainViewController.h */,
+				C39F297F1E009428002262C3 /* MainViewController.m */,
+				C39F29801E009428002262C3 /* MainViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C39F29881E009454002262C3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C39F299F1E00966B002262C3 /* LaunchImage */,
+				C39F29891E00948F002262C3 /* iconButton */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C39F29891E00948F002262C3 /* iconButton */ = {
+			isa = PBXGroup;
+			children = (
+				C39F298A1E00948F002262C3 /* btn_record.png */,
+				C39F298B1E00948F002262C3 /* btn_recording.png */,
+			);
+			path = iconButton;
+			sourceTree = "<group>";
+		};
+		C39F299F1E00966B002262C3 /* LaunchImage */ = {
+			isa = PBXGroup;
+			children = (
+				C39F29A01E00967A002262C3 /* Default-568h@2x.png */,
+			);
+			path = LaunchImage;
+			sourceTree = "<group>";
+		};
+		C39F29A41E009983002262C3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C39F29A51E0099A4002262C3 /* UIKitExtensions.h */,
+				C39F29A61E0099A4002262C3 /* UIKitExtensions.m */,
+				C39F29A81E009A07002262C3 /* appHelper.h */,
+				C39F29A91E009A07002262C3 /* appHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iPhoneScreenRecoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iPhoneScreenRecoder" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneScreenRecoder;
+			productName = iPhoneScreenRecoder;
+			productReference = 1D6058910D05DD3D006BFB54 /* iPhoneScreenRecoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iPhoneScreenRecoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iPhoneScreenRecoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				C39F29851E009428002262C3 /* MainViewController.xib in Resources */,
+				C39F29A11E00967A002262C3 /* Default-568h@2x.png in Resources */,
+				C39F29511E009366002262C3 /* Localizable.strings in Resources */,
+				C39F298C1E00948F002262C3 /* btn_record.png in Resources */,
+				C39F29501E009366002262C3 /* InfoPlist.strings in Resources */,
+				C39F298D1E00948F002262C3 /* btn_recording.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39F297C1E0093F8002262C3 /* Utilities.m in Sources */,
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				C39F29A71E0099A4002262C3 /* UIKitExtensions.m in Sources */,
+				C39F297A1E0093F8002262C3 /* CSScreenRecorder.m in Sources */,
+				C39F29841E009428002262C3 /* MainViewController.m in Sources */,
+				1D3623260D0F684500981E51 /* iPhoneScreenRecoderAppDelegate.m in Sources */,
+				C39F29AE1E00A1D1002262C3 /* README.md in Sources */,
+				C39F29AA1E009A07002262C3 /* appHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iPhoneScreenRecoder_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fat/include",
+				);
+				INFOPLIST_FILE = "iPhoneScreenRecoder-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fat/lib",
+				);
+				PRODUCT_NAME = iPhoneScreenRecoder;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iPhoneScreenRecoder_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fat/include",
+				);
+				INFOPLIST_FILE = "iPhoneScreenRecoder-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fat/lib",
+				);
+				PRODUCT_NAME = iPhoneScreenRecoder;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-w";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-w";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C39F296F1E0093C7002262C3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-w";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		C39F29701E0093C7002262C3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iPhoneScreenRecoder_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fat/include",
+				);
+				INFOPLIST_FILE = "iPhoneScreenRecoder-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fat/lib",
+				);
+				PRODUCT_NAME = iPhoneScreenRecoder;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iPhoneScreenRecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				C39F29701E0093C7002262C3 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iPhoneScreenRecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				C39F296F1E0093C7002262C3 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

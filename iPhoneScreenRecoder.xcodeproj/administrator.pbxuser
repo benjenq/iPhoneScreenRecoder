@@ -1,0 +1,138 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* iPhoneScreenRecoder */ = {
+		activeExec = 0;
+		executables = (
+			C3B4C0791E00927A005F4637 /* iPhoneScreenRecoder */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C3B4C0791E00927A005F4637 /* iPhoneScreenRecoder */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* iPhoneScreenRecoder */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* iPhoneScreenRecoder */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = C3B4C08A1E00928F005F4637 /* Code sense */;
+		executables = (
+			C3B4C0791E00927A005F4637 /* iPhoneScreenRecoder */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 503353978;
+			PBXWorkspaceStateSaveDate = 503353978;
+		};
+		perUserProjectItems = {
+			C3B4C08F1E0092F2005F4637 /* PBXTextBookmark */ = C3B4C08F1E0092F2005F4637 /* PBXTextBookmark */;
+			C3B4C0901E0092F2005F4637 /* PlistBookmark */ = C3B4C0901E0092F2005F4637 /* PlistBookmark */;
+			C3B4C0911E0092F2005F4637 /* PlistBookmark */ = C3B4C0911E0092F2005F4637 /* PlistBookmark */;
+		};
+		sourceControlManager = C3B4C0891E00928F005F4637 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C3B4C0791E00927A005F4637 /* iPhoneScreenRecoder */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iPhoneScreenRecoder;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	C3B4C0841E00928F005F4637 /* MainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 226}}";
+			sepNavSelRange = "{60, 0}";
+			sepNavVisRange = "{0, 246}";
+		};
+	};
+	C3B4C0891E00928F005F4637 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C3B4C08A1E00928F005F4637 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C3B4C08F1E0092F2005F4637 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B4C0841E00928F005F4637 /* MainViewController.h */;
+		name = "MainViewController.h: 5";
+		rLen = 0;
+		rLoc = 60;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	C3B4C0901E0092F2005F4637 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* iPhoneScreenRecoder-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/administrator/Documents/iPhoneScreenRecoder/iPhoneScreenRecoder-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	C3B4C0911E0092F2005F4637 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* iPhoneScreenRecoder-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = "/Users/administrator/Documents/iPhoneScreenRecoder/iPhoneScreenRecoder-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+}
