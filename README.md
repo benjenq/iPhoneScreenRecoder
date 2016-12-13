@@ -3,8 +3,7 @@ iPhoneScreenRecoder
 A powerful tool to recording screen on iPhone device. support iOS 8+. Private Framework used so may not be approved by Apple.
 強大的螢幕錄製工具，支援 iOS 8+ 的 iPhone 裝置。使用私有框架所以可能無法通過 Apple 的審查。
 
-How to Use?
-===============
+## How to Use?
 如何使用？
 
 
@@ -28,8 +27,7 @@ $(PROJECT_DIR)/fat/lib
 4. 新增以下 Framework
 ![GitHub](https://github.com/benjenq/iPhoneScreenRecoder/blob/master/FrameworkList.png "GitHub,benjenq")
 
-How this demo to work?
-===============
+## How this demo to work?
 Demo 如何運作？
 
 Launch application, press "Start" button, the screen recoder will start with timer indecated. You can switch to any application and it record anything happened on screen you seen.
@@ -37,3 +35,8 @@ Launch application, press "Start" button, the screen recoder will start with tim
 
 Connect iPhone device to iTunes PC via USB cable and transfer the screen-recorded file named "output.mp4" via iTunes.
 用 USB 電纜連接 iPhone 與 iTunes 個人電腦，可將螢幕錄製的影片檔案 "output.mp4" 透過 iTunes 傳送。
+
+## Special thanks:
+This project reference from RecordMyScreen-iOS10 project.
+xindawndev
+https://raw.githubusercontent.com/xindawndev/RecordMyScreen-iOS10
